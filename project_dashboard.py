@@ -83,6 +83,7 @@ dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.mi
 
 app = Dash(__name__, external_stylesheets=[URL_THEME, dbc_css])
 load_figure_template("DARKLY")
+server = app.server
 
 # Establish the sidebar of the dashboard's second tab with six dropdown tools
 # (three per company --> one choosing the company, one choosing the plot color, one choosing the plot linestyle)
