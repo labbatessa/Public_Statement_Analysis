@@ -1,0 +1,4 @@
+dash-bootstrap-components==1.2.1
+dash==2.6.1
+matplotlib==3.5.2
+dash-bootstrap-templates==1.0.7
