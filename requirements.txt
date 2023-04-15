@@ -1,8 +1,8 @@
 dash-bootstrap-components==1.2.1
 dash==2.6.1
-sentiment_stock_plot
-textquisite
+labbatessa/Public_Statement_Analysis/sentiment_stock_plot
+labbatessa/Public_Statement_Analysis/textquisite
 matplotlib==3.5.2
-stock_price_plot
+labbatessa/Public_Statement_Analysis/stock_price_plot
 dash-bootstrap-templates==1.0.7
 gunicorn
