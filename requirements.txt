@@ -1,8 +1,11 @@
 dash-bootstrap-components==1.2.1
 dash==2.6.1
-sentiment_stock_plot.py
-textquisite.py
+sentiment-stock-plot==0.0.1
+textquisite==0.0.1
 matplotlib==3.5.2
-stock_price_plot.py
+stock-price-plot==0.0.1
 dash-bootstrap-templates==1.0.7
+dash-data-prep==0.0.1
+sentiment-nltk==0.0.1
+textquisite-parsers==0.0.1
 gunicorn
