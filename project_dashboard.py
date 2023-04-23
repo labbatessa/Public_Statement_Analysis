@@ -82,6 +82,7 @@ stock_df = pd.read_csv(STOCK_DATA)
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 
 app = Dash(__name__, external_stylesheets=[URL_THEME, dbc_css])
+server = app.server
 load_figure_template("DARKLY")
 
 # Establish the sidebar of the dashboard's second tab with six dropdown tools
