@@ -1,6 +1,6 @@
 dash-bootstrap-components==1.2.1
 dash==2.6.1
-pandas==1.4.3
+pandas==1.3.5
 sentiment-stock-plot==0.0.2
 textquisite==0.0.2
 matplotlib==3.5.2
