@@ -48,8 +48,8 @@ FILES = {"data_files/british_airways.json": ["data_files/british_airways.json", 
 
 STOCK_DATA = "stock_data_files/new_stock_data.csv"
 
-COMPANIES = ["British Airways", "DoorDash", "Equifax", "Hilton", "LinkedIn", "Optus", "Pearson", "Target", "T-Mobile",
-             "Twitter", "Yahoo"]
+COMPANIES = ["british airways", "doordash", "equifax", "hilton", "linkedin", "optus", "pearson", "target", "tmobile",
+             "twitter", "yahoo"]
 COLORS = [color for color in mcolors.CSS4_COLORS]
 
 SEVERITIES = ["All", "High", "Medium", "Low"]
@@ -92,7 +92,7 @@ tab2_sidebar = html.Div(
         html.H4("SELECTIONS"),
 
         html.P("1st Company to Analyze"),
-        dcc.Dropdown(id="company1", options=COMPANIES, value="British Airways", clearable=False),
+        dcc.Dropdown(id="company1", options=COMPANIES, value="british airways", clearable=False),
         html.P("1st Company: Color"),
         dcc.Dropdown(id="color1", options=COLORS, value="red", clearable=False),
         html.P("1st Company: Linestyle"),
@@ -102,7 +102,7 @@ tab2_sidebar = html.Div(
         html.Br(),
 
         html.P("2nd Company to Analyze"),
-        dcc.Dropdown(id="company2", options=COMPANIES, value="LinkedIn", clearable=False),
+        dcc.Dropdown(id="company2", options=COMPANIES, value="linkedin", clearable=False),
         html.P("2nd Company: Color"),
         dcc.Dropdown(id="color2", options=COLORS, value="green", clearable=False),
         html.P("2nd Company: Linestyle"),
